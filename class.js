@@ -1,10 +1,9 @@
-//խոտի կլասը
-class Grass {
-    constructor(x, y) {
+class LivingCreature {
+    constructor(x, y, incdex){
         this.x = x;
         this.y = y;
-        this.multiply = 0; 
-        this.directions = [
+        this.index = index;
+        this.directions = [ 
             [this.x - 1, this.y - 1],
             [this.x, this.y - 1],
             [this.x + 1, this.y - 1],
@@ -13,25 +12,34 @@ class Grass {
             [this.x - 1, this.y + 1],
             [this.x, this.y + 1],
             [this.x + 1, this.y + 1]
+            
         ];
-
     }
-    //հետազոտում է շրջապատը, որոնում է հետաքրքրող կերպարներին
-    //կերպարը որոշվում է character արգումենտով
-    chooseCell(character) {
+    chooseCell(ch) {
         var found = [];
-        for (var i in this.directions) {
+        for(var i in this.directions){
             var x = this.directions[i][0];
             var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
-                    found.push(this.directions[i]);
+            if(x>= 0 && x < matrix.length && y >= 0 && y < matrix.length){
+                if( matrix[x][y == ch]){
+                    found.push(this.directions[i])
                 }
             }
+            break
         }
         return found;
     }
+}
 
+
+
+//խոտի կլասը
+class Grass extends LivingCreature {
+    constructor (x, y, index){
+    super(x, y, index);
+    this.multiply = 0;
+    }
+   
     //mul() բազմացում
     mul() {
         this.multiply++;
@@ -54,14 +62,13 @@ class Grass {
         }
     }
 }
+
+
 //խոտակերի կլասը
 class GrassEater {
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
-        this.multiply = 0;
-        this.energy = 3;
-        this.directions =[];
+    constructor(x, y, index) {
+        super (x,y, index);
+        this.energy = 8;
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -82,17 +89,9 @@ class GrassEater {
     //կերպարը որոշվում է character արգումենտով
     chooseCell(character) {
         this.updateCoordinates();
-        var found = [];
-        for (var i in this.directions) {
-            var x = this.directions[i][0];
-            var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
-                    found.push(this.directions[i]);
-                }
-            }
-        }
-        return found;
+         return super.updateCoordinates(character)
+        
+        
     }
 
 
@@ -140,7 +139,7 @@ class GrassEater {
 
             //բազմացման գործակիցը մեծացնում է
             this.multiply++;
- 
+
             //մեծացնում է էներգիան
             this.energy++;
 
@@ -175,7 +174,7 @@ class GrassEater {
         var coord = random(emptyCells);
 
         //եթե կա բազմանում է
-        if (coord){
+        if (coord) {
             var x = coord[0];
             var y = coord[1];
             // this.multiply++;
@@ -186,7 +185,7 @@ class GrassEater {
 
             //հիմնական matrix-ում կատարում է գրառում նոր խոտի մասին
             matrix[y][x] = 2;
-        } 
+        }
     }
 
     //die() մահանալ
