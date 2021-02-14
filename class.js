@@ -1,35 +1,42 @@
-//խոտի կլասը
-class Grass {
-    constructor(x, y) {
+class LivingCreature {
+    constructor(x, y, index){
         this.x = x;
         this.y = y;
-        this.multiply = 0; 
+        this.index = index;
         this.directions = [
-            [this.x - 1, this.y - 1],
-            [this.x, this.y - 1],
-            [this.x + 1, this.y - 1],
-            [this.x - 1, this.y],
-            [this.x + 1, this.y],
-            [this.x - 1, this.y + 1],
-            [this.x, this.y + 1],
-            [this.x + 1, this.y + 1]
-        ];
-
+           [this.x - 1, this.y - 1],
+           [this.x, this.y - 1],
+           [this.x + 1, this.y - 1],
+           [this.x - 1, this.y],
+           [this.x + 1, this.y],
+           [this.x - 1, this.y + 1],
+           [this.x, this.y + 1],
+           [this.x + 1, this.y + 1]
+       ];
+ 
     }
-    //հետազոտում է շրջապատը, որոնում է հետաքրքրող կերպարներին
-    //կերպարը որոշվում է character արգումենտով
-    chooseCell(character) {
+    chooseCell(ch) {
         var found = [];
         for (var i in this.directions) {
             var x = this.directions[i][0];
             var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
+            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length){
+                if (matrix[y][x] == ch) {
                     found.push(this.directions[i]);
                 }
-            }
+            }   
         }
         return found;
+    }
+}
+
+
+
+//խոտի կլասը
+class Grass extends LivingCreature {
+    constructor(x,y,index){
+        super(x,y,index);
+        this.multiply=0;
     }
 
     //mul() բազմացում
@@ -54,14 +61,13 @@ class Grass {
         }
     }
 }
+
 //խոտակերի կլասը
-class GrassEater {
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
-        this.multiply = 0;
-        this.energy =20 ;
-        this.directions =[];
+class GrassEater extends LivingCreature{
+    constructor(x, y, index) {
+        super (x, y, index);
+        this.energy = 8;
+        
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -80,21 +86,10 @@ class GrassEater {
 
     //հետազոտում է շրջապատը, որոնում է հետաքրքրող կերպարներին
     //կերպարը որոշվում է character արգումենտով
-    chooseCell(character) {
+    chooseCell(character){
         this.updateCoordinates();
-        var found = [];
-        for (var i in this.directions) {
-            var x = this.directions[i][0];
-            var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
-                    found.push(this.directions[i]);
-                }
-            }
-        }
-        return found;
+        return super.chooseCell(character)
     }
-
 
 
     //move() շարժվել
@@ -204,13 +199,11 @@ class GrassEater {
 }
 
 
-class Gishatich { //ուտում է խոտակեր
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
+class Gishatich extends LivingCreature { //ուտում է խոտակեր
+    constructor(x, y,index) {
+        super(x,y,index)
         this.multiply = 15;
         this.energy = 8;
-        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -231,17 +224,7 @@ class Gishatich { //ուտում է խոտակեր
     //կերպարը որոշվում է character արգումենտով
     chooseCell(character) {
         this.updateCoordinates();
-        var found = [];
-        for (var i in this.directions) {
-            var x = this.directions[i][0];
-            var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
-                    found.push(this.directions[i]);
-                }
-            }
-        }
-        return found;
+      return super.chooseCell(character)
     }
 
     //move() շարժվել
@@ -350,13 +333,11 @@ class Gishatich { //ուտում է խոտակեր
 
 }
 
-class Amenaker { //ուտում է խոտ և խոտակեր
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
+class Amenaker extends LivingCreature{ //ուտում է խոտ և խոտակեր
+    constructor(x, y, index) {
+        super(x,y,index);
         this.multiply = 8;
         this.energy = 8;
-        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -377,17 +358,8 @@ class Amenaker { //ուտում է խոտ և խոտակեր
     //կերպարը որոշվում է character արգումենտով
     chooseCell(character) {
         this.updateCoordinates();
-        var found = [];
-        for (var i in this.directions) {
-            var x = this.directions[i][0];
-            var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
-                    found.push(this.directions[i]);
-                }
-            }
-        }
-        return found;
+        return super.chooseCell(character)
+
     }
 
     //move() շարժվել
@@ -505,13 +477,11 @@ class Amenaker { //ուտում է խոտ և խոտակեր
 
 }
 
-class Pink{ //երբ խոտակերները 3-ից քիչ են,առաջանում է ու խոտ է ուտում
-    constructor(x, y) {
-        this.x = x;
-        this.y = y;
+class Pink extends LivingCreature{ //երբ խոտակերները 3-ից քիչ են,առաջանում է ու խոտ է ուտում
+    constructor(x, y, index) {
+        super(x,y,index);
         this.energy = 4;
         this.multiply = 8;
-        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -531,20 +501,13 @@ class Pink{ //երբ խոտակերները 3-ից քիչ են,առաջանու�
     //հետազոտում է շրջապատը, որոնում է հետաքրքրող կերպարներին
     //կերպարը որոշվում է character արգումենտով
     chooseCell(character) {
-        this.updateCoordinates();
-        var found = [];
-        for (var i in this.directions) {
-            var x = this.directions[i][0];
-            var y = this.directions[i][1];
-            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
-                if (matrix[y][x] == character) {
-                    found.push(this.directions[i]);
-                }
-            }
-        }
-        return found;
+        this.updateCoordinates;
+        return super.chooseCell(character)
     }
 
+
+
+    
     //move() շարժվել
     move() {
         //որոնում է դատարկ տարածքներ
