@@ -1,8 +1,9 @@
-class LivingCreature {
-    constructor(x, y, incdex) {
+//խոտի կլասը
+class Grass {
+    constructor(x, y) {
         this.x = x;
         this.y = y;
-        this.index = index;
+        this.multiply = 0; 
         this.directions = [
             [this.x - 1, this.y - 1],
             [this.x, this.y - 1],
@@ -12,37 +13,29 @@ class LivingCreature {
             [this.x - 1, this.y + 1],
             [this.x, this.y + 1],
             [this.x + 1, this.y + 1]
-
         ];
+
     }
-    chooseCell(ch) {
+    //հետազոտում է շրջապատը, որոնում է հետաքրքրող կերպարներին
+    //կերպարը որոշվում է character արգումենտով
+    chooseCell(character) {
         var found = [];
         for (var i in this.directions) {
             var x = this.directions[i][0];
             var y = this.directions[i][1];
-            if (x >= 0 && x < matrix.length && y >= 0 && y < matrix.length) {
-                if (matrix[x][y == ch]) {
-                    found.push(this.directions[i])
+            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
+                if (matrix[y][x] == character) {
+                    found.push(this.directions[i]);
                 }
             }
-            break
         }
         return found;
-    }
-}
-
-
-//խոտի կլասը
-class Grass extends LivingCreature {
-    constructor(x, y, index) {
-        super(x, y, index);
-        this.multiply = 0;
     }
 
     //mul() բազմացում
     mul() {
         this.multiply++;
-        if (this.multiply >= 8) {
+        if (this.multiply >= 12) {
             //հետազոտում է շրջապատը, որոնում դատարկ տարածքներ
             var emptyCells = this.chooseCell(0);
             var coord = random(emptyCells);
@@ -61,12 +54,14 @@ class Grass extends LivingCreature {
         }
     }
 }
-
 //խոտակերի կլասը
 class GrassEater {
-    constructor(x, y, index) {
-        super(x, y, index);
-        this.energy = 8;
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.multiply = 0;
+        this.energy =20 ;
+        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -87,7 +82,17 @@ class GrassEater {
     //կերպարը որոշվում է character արգումենտով
     chooseCell(character) {
         this.updateCoordinates();
-        return super.chooseCell(character);
+        var found = [];
+        for (var i in this.directions) {
+            var x = this.directions[i][0];
+            var y = this.directions[i][1];
+            if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
+                if (matrix[y][x] == character) {
+                    found.push(this.directions[i]);
+                }
+            }
+        }
+        return found;
     }
 
 
@@ -96,11 +101,11 @@ class GrassEater {
     move() {
         //որոնում է դատարկ տարածքներ
         var emptyCells = this.chooseCell(0);
-        var cօord = random(emptyCells); // 4,3
+        var coord = random(emptyCells); // 4,3
 
-        if (cօord) {
-            var x = cօord[0];
-            var y = cօord[1];
+        if (coord) {
+            var x = coord[0];
+            var y = coord[1];
 
             //շարժվում է
             matrix[y][x] = 2;
@@ -134,8 +139,8 @@ class GrassEater {
             this.y = y;
 
             //բազմացման գործակիցը մեծացնում է
-            this.multiply++;
-
+            this.multiply+=2;
+ 
             //մեծացնում է էներգիան
             this.energy++;
 
@@ -147,7 +152,7 @@ class GrassEater {
             }
 
             //եթե պատրաստ է բազմացմանը, բազմանում է 
-            if (this.multiply == 10) {
+            if (this.multiply == 6) {
                 this.mul()
                 this.multiply = 0;
             }
@@ -170,18 +175,17 @@ class GrassEater {
         var coord = random(emptyCells);
 
         //եթե կա բազմանում է
-        if (coord) {
+        if (coord){
             var x = coord[0];
             var y = coord[1];
             // this.multiply++;
-            //ստեղծում է նոր օբյեկտ (այստեղ խոտակեր) 
+            //ստեղծում է նոր օբյեկտ (խոտակեր) 
             //և տեղադրում է այն խոտակերների զանգվածի մեջ
             var newEater = new GrassEater(x, y);
             eatersArr.push(newEater);
-
-            //հիմնական matrix-ում կատարում է գրառում նոր խոտի մասին
+            //հիմնական matrix-ում կատարում է գրառում նոր խոտակերի մասին
             matrix[y][x] = 2;
-        }
+        } 
     }
 
     //die() մահանալ
@@ -200,14 +204,13 @@ class GrassEater {
 }
 
 
-
 class Gishatich { //ուտում է խոտակեր
     constructor(x, y) {
         this.x = x;
         this.y = y;
         this.multiply = 15;
         this.energy = 8;
-        this.directions = [];
+        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -245,7 +248,7 @@ class Gishatich { //ուտում է խոտակեր
     move() {
         //որոնում է դատարկ տարածքներ
         var emptyCells = this.chooseCell(0);
-        var coord = random(emptyCells);
+        var coord = random(emptyCells); 
 
         if (coord) {
             var x = coord[0];
@@ -283,8 +286,8 @@ class Gishatich { //ուտում է խոտակեր
             this.y = y;
 
             //բազմացման գործակիցը մեծացնում է
-            this.multiply += 2;
-
+            this.multiply+=2;
+ 
             //մեծացնում է էներգիան
             this.energy++;
 
@@ -305,7 +308,7 @@ class Gishatich { //ուտում է խոտակեր
         } else {
             //եթե չկա հարմար սնունդ 
             this.move();
-            this.energy -= 2;
+            this.energy-=2;
             if (this.energy <= 0) { //մահանում է, եթե էներգիան 0֊ից ցածր է
                 this.die();
             }
@@ -319,7 +322,7 @@ class Gishatich { //ուտում է խոտակեր
         var coord = random(emptyCells);
 
         //եթե կա բազմանում է
-        if (coord) {
+        if (coord){
             var x = coord[0];
             var y = coord[1];
             // this.multiply++;
@@ -329,7 +332,7 @@ class Gishatich { //ուտում է խոտակեր
             gishatArr.push(gish);
             //հիմնական matrix-ում կատարում է գրառում նոր գիշատիչի մասին
             matrix[y][x] = 3;
-        }
+        } 
     }
 
     //die() մահանալ
@@ -340,7 +343,7 @@ class Gishatich { //ուտում է խոտակեր
         //ջնջում է ինքն իրեն գիշատիչների զանգվածից
         for (var i in gishatArr) {
             if (this.x == gishatArr[i].x && this.y == gishatArr[i].y) {
-                gishatArr.splice(i, 1);
+             gishatArr.splice(i, 1);
             }
         }
     }
@@ -353,7 +356,7 @@ class Amenaker { //ուտում է խոտ և խոտակեր
         this.y = y;
         this.multiply = 8;
         this.energy = 8;
-        this.directions = [];
+        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
@@ -391,7 +394,7 @@ class Amenaker { //ուտում է խոտ և խոտակեր
     move() {
         //որոնում է դատարկ տարածքներ
         var emptyCells = this.chooseCell(0);
-        var coord = random(emptyCells);
+        var coord = random(emptyCells); 
 
         if (coord) {
             var x = coord[0];
@@ -431,12 +434,12 @@ class Amenaker { //ուտում է խոտ և խոտակեր
             this.y = y;
 
             //բազմացման գործակիցը մեծացնում է
-            this.multiply += 2;
-
+            this.multiply+=2;
+ 
             //մեծացնում է էներգիան
             this.energy++;
             //եթե ուտում է խոտ,խոտին ջնջում է խոտակերների զանգվածից
-            if (snund == 1) {
+            if(snund==1){
                 for (var i in grassArr) {
                     if (x == grassArr[i].x && y == grassArr[i].y) {
                         grassArr.splice(i, 1);
@@ -444,15 +447,15 @@ class Amenaker { //ուտում է խոտ և խոտակեր
                 }
             }
             //եթե ուտում է խոտակեր,խոտակերին է ջնջում խոտակերների զանգվածից
-            else if (snund == 2) {
+            else if(snund==2){
                 for (var i in eatersArr) {
                     if (x == eatersArr[i].x && y == eatersArr[i].y) {
-                        eatersArr.splice(i, 1);
+                        eatersArr.splice(i,1);
                     }
                 }
 
             }
-            // եթե պատրաստ է բազմացմանը, բազմանում է 
+           // եթե պատրաստ է բազմացմանը, բազմանում է 
             if (this.multiply == 12) {
                 this.mul()
                 this.multiply = 0;
@@ -474,17 +477,17 @@ class Amenaker { //ուտում է խոտ և խոտակեր
         var coord = random(emptyCells);
 
         //եթե կա բազմանում է
-        if (coord) {
+        if (coord){
             var x = coord[0];
             var y = coord[1];
             // this.multiply++;
             //ստեղծում է նոր օբյեկտ - ամենակեր
             var newamen = new Amenaker(x, y);
-            amenakernerArr.push(newamen);
+           amenakernerArr.push(newamen);
 
             //հիմնական matrix-ում կատարում է գրառում նոր ամենակերի մասին
             matrix[y][x] = 5;
-        }
+        } 
     }
 
     //die() մահանալ
@@ -502,18 +505,18 @@ class Amenaker { //ուտում է խոտ և խոտակեր
 
 }
 
-class Pink { //երբ խոտակերները 3-ից քիչ են,առաջանում է ու խոտ է ուտում
+class Pink{ //երբ խոտակերները 3-ից քիչ են,առաջանում է ու խոտ է ուտում
     constructor(x, y) {
         this.x = x;
         this.y = y;
         this.energy = 4;
         this.multiply = 8;
-        this.directions = [];
+        this.directions =[];
     }
 
     //թարմացնել շրջապատի կոորդինատները
     updateCoordinates() {
-        this.directions = [
+         this.directions = [
             [this.x - 1, this.y - 1],
             [this.x, this.y - 1],
             [this.x + 1, this.y - 1],
@@ -546,7 +549,7 @@ class Pink { //երբ խոտակերները 3-ից քիչ են,առաջանու
     move() {
         //որոնում է դատարկ տարածքներ
         var emptyCells = this.chooseCell(0);
-        var coord = random(emptyCells);
+        var coord = random(emptyCells); 
 
         if (coord) {
             var x = coord[0];
@@ -584,14 +587,14 @@ class Pink { //երբ խոտակերները 3-ից քիչ են,առաջանու
             this.y = y;
 
             //բազմացման գործակիցը մեծացնում է
-            this.multiply += 2;
+            this.multiply+=2;
             //փոխում է էներգիան
             this.energy++;
-
+ 
             // սննդի զանգվածից ջնջում է կերված սնունդը
             for (var i in grassArr) {
                 if (x == grassArr[i].x && y == grassArr[i].y) {
-                    grassArr.splice(i, 1);
+                   grassArr.splice(i, 1);
                 }
             }
 
@@ -604,13 +607,13 @@ class Pink { //երբ խոտակերները 3-ից քիչ են,առաջանու
 
         } else {
             //եթե չկա հարմար սնունդ 
-            this.move();
-            this.energy -= 2;
-            if (this.energy < 0) {
+            this.move();    
+            this.energy-=2;
+            if(this.energy<0){
                 this.die();
+            }     
             }
         }
-    }
     //mul() բազմանալ
     mul() {
         //փնտրում է դատարկ տարածք
@@ -618,7 +621,7 @@ class Pink { //երբ խոտակերները 3-ից քիչ են,առաջանու
         var coord = random(emptyCells);
 
         //եթե կա բազմանում է
-        if (coord) {
+        if (coord){
             var x = coord[0];
             var y = coord[1];
             // this.multiply++;
@@ -629,9 +632,9 @@ class Pink { //երբ խոտակերները 3-ից քիչ են,առաջանու
 
             //հիմնական matrix-ում կատարում է գրառում նոր pink-ի մասին
             matrix[y][x] = 5;
-        }
+        } 
     }
-    die() {
+    die(){
         //Հիմնական մատրիցում իր դիրքում դնում է դատարկություն
         matrix[this.y][this.x] = 0;
 
