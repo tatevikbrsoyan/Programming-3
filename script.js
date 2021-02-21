@@ -1,4 +1,10 @@
-var grassArr = []; //խոտերի զանգված
+var socket = io();
+function test(){
+    socket.emit('socketIradarcutyuanOrinak', 2000)
+}
+test()
+
+/*var grassArr = []; //խոտերի զանգված
 var eatersArr = []; //խոտակերների զանգված
 var gishatArr = [];
 var amenakernerArr = [];
@@ -115,3 +121,4 @@ function draw() {
         }
     }
 }
+*/
