@@ -1,10 +1,10 @@
-import {LivingCreature} from './LivingCreature';
+var LivingCreature = require('./LivingCreature')
 
 //խոտակերի կլասը
 module.exports = class GrassEater extends LivingCreature {
     constructor(x, y, index) {
         super(x, y, index);
-        this.energy = 8;
+        this.energy = 800;
 
     }
 

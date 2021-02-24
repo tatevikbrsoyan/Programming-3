@@ -1,4 +1,4 @@
-import {LivingCreature} from './LivingCreature';
+var LivingCreature = require('./LivingCreature')
 
 
 

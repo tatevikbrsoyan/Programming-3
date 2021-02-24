@@ -1,4 +1,4 @@
-import {LivingCreature} from './LivingCreature';
+var LivingCreature = require('./LivingCreature')
 
 module.exports = class Gishatich extends LivingCreature { //ուտում է խոտակեր
     constructor(x, y, index) {

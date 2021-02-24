@@ -1,4 +1,4 @@
-import {LivingCreature}  from './LivingCreature';
+var LivingCreature = require("./LivingCreature");
 //խոտի կլասը
  module.exports = class Grass extends LivingCreature {
     constructor(x, y, index) {
