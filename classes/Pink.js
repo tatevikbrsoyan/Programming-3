@@ -55,7 +55,7 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
 
 
     //eat()-ուտել
-    eat() {
+    eat(isSummer) {
         //հետազոտում է շրջակայքը, որոնում է սնունդ
         var eatersCells = this.chooseCell(1);
         var coord = random(eatersCells);
@@ -77,7 +77,15 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
             //բազմացման գործակիցը մեծացնում է
             this.multiply += 2;
             //փոխում է էներգիան
-            this.energy++;
+
+            //եթե ամառ է էներգիան մեծանում է 1-ով
+            if (isSummer) {
+                this.energy++;
+               // console.log("amar a");
+            } else {  //եթե ձմեռ է էներգիան մեծանում է -2ով
+                this.energy += 2;
+                //console.log('dzmer a ');
+            }
 
             // սննդի զանգվածից ջնջում է կերված սնունդը
             for (var i in grassArr) {
@@ -101,6 +109,8 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
                 this.die();
             }
         }
+
+       
     }
     //mul() բազմանալ
     mul() {

@@ -2,8 +2,9 @@
 <html>
 
 <head>
+    <title>Programming 3</title>
+    <meta charset="UTF-8">
     <script src="/socket.io/socket.io.js"></script>
-
     <meta charset="utf8">
     <script src="p5.js"></script>
     <script src="script.js"></script>
@@ -13,21 +14,14 @@
         }
 
          #legend {position: absolute;top: 0;right: 0;width: 800px;} .legend-color {width: 30px;height: 30px;} td {border: 1px solid black; font-size: 14px; padding-left: 5px;}
+  
     </style>
 </head>
 
 
 <body>
-    <div style="background-color:green; width:15px; height:15px"></div>Խոտ
-    <div style="background-color:yellow; width:15px; height:15px"></div>Խոտակեր
-    <div style="background-color:red;width:15px;height: 15px"></div>
-    Գիշատիչ
-    <div style="background-color:black;width:15px;height: 15px"></div>
-   Ամենակեր
-    <div style="background-color:MediumVioletRed;width:15px;height: 15px"></div>
-   Pink
 
-  <!--  <table id="legend">
+    <!--  <table id="legend">
         <tr>
             <td class="legend-color">Գույն</td>
             <td>Անվանում</td>
@@ -62,7 +56,7 @@
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
         </tr>   
         <tr>
-            <td class="legend-color" style="background-color:yellow"></td>
+            <td class="legend-color" style="background-color:red"></td>
             <td>Գիշատիչ</td>
             <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 1֊ով</td>
             <td>Խոտերին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
@@ -70,8 +64,28 @@
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
         </tr>   
 
-    </table> 
--->
+        <tr>
+            <td class="legend-color" style="background-color:black"></td>
+            <td>Ամենակեր</td>
+            <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 1֊ով</td>
+            <td>Խոտ եւ Խոտակեր </td>
+            <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 12-ից ավել է</td>
+            <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
+        </tr> 
+
+        <tr>
+            <td class="legend-color" style="background-color:pink"></td>
+            <td>Pink</td>
+            <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 2֊ով</td>
+            <td>երբ խոտակերները 3-ից քիչ են,առաջանում է ու խոտ է ուտում</td>
+            <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
+            <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
+        </tr>
+
+    </table>  -->
+    
+
+    <button onclick="eventClick()">Ինչ որ իրադարձություն</button>
 </body>
 
 </html>

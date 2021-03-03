@@ -50,13 +50,23 @@ module.exports = class Gishatich extends LivingCreature { //ուտում է խո
 
 
     //eat()-ուտել
-    eat() {
+    eat(isSummer) {
+        // if(isSummer){
+        //     console.log("summer");
+        // }else{
+        //     console.log("winter");
+        // }
+
+
+
         //հետազոտում է շրջակայքը, որոնում է սնունդ
         var eatersCells = this.chooseCell(1);
         var coord = random(eatersCells);
 
+
         //եթե կա հարմար սնունդ
         if (coord) {
+            var multiply = 2;
             var x = coord[0];
             var y = coord[1];
 
@@ -70,10 +80,22 @@ module.exports = class Gishatich extends LivingCreature { //ուտում է խո
             this.y = y;
 
             //բազմացման գործակիցը մեծացնում է
-            this.multiply += 2;
 
-            //մեծացնում է էներգիան
-            this.energy++;
+
+            //եթե ամառ է ուտելուց էներգիան մեծացնում է  է 3-ով, եթե ոչ ` 1-ով, 
+            //եթե ամառ է ուտելուց multiply մեծացնում է 2-ով, եթե ոչ ` 1-ով, 
+
+            if (isSummer) {
+                this.multiply += 2;
+                this.energy += 3;
+             
+            } else {
+                this.multiply++;
+                this.energy++
+              
+            }
+
+
 
             // սննդի զանգվածից ջնջում է կերված սնունդը
             for (var i in eatersArr) {
@@ -109,7 +131,7 @@ module.exports = class Gishatich extends LivingCreature { //ուտում է խո
         if (coord) {
             var x = coord[0];
             var y = coord[1];
-            // this.multiply++;
+            this.multiply++;
             //ստեղծում է նոր օբյեկտ (գիշատիչ) 
             //և տեղադրում է այն գիշատիչների զանգվածի մեջ
             var newgish = new Gishatich(x, y);

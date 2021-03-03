@@ -52,7 +52,8 @@ module.exports = class GrassEater extends LivingCreature {
 
 
     //eat()-ուտել
-    eat() {
+    eat(isSummer) {
+
         //հետազոտում է շրջակայքը, որոնում է սնունդ
         var grassCells = this.chooseCell(1);
         var coord = random(grassCells);
@@ -84,11 +85,25 @@ module.exports = class GrassEater extends LivingCreature {
                 }
             }
 
-            //եթե պատրաստ է բազմացմանը, բազմանում է 
-            if (this.multiply == 6) {
-                this.mul()
-                this.multiply = 0;
+
+            //եթե ամառ է 
+            if (isSummer) {
+               // console.log("amar a ");
+                //եթե պատրաստ է բազմացմանը - multply=6, բազմանում է 
+                if (this.multiply == 6) {
+                    this.mul()
+                    this.multiply = 0;
+                }
+
+
+            } else { //եթե ձմեռ է 
+                //console.log('dmzer a ');
+                if (this.multiply == 8) { //եթե պատրաստ է բազմացմանը - multply=8, բազմանում է 
+                    this.mul()
+                    this.multiply = 0;
+                }
             }
+
 
 
         } else {

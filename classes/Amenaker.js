@@ -49,7 +49,7 @@ module.exports = class Amenaker extends LivingCreature { //ուտում է խո�
     }
 
     //eat()-ուտել
-    eat() {
+    eat(isSummer) {
         //հետազոտում է շրջակայքը, որոնում է սնունդ
         var eatersCells = this.chooseCell(2);
         var grassCells = this.chooseCell(1);
@@ -98,10 +98,16 @@ module.exports = class Amenaker extends LivingCreature { //ուտում է խո�
                 this.mul()
                 this.multiply = 0;
             }
-        } else {
-            //եթե չկա հարմար սնունդ 
-            this.move();
-            this.energy--;
+        } else {//եթե չկա հարմար սնունդ 
+
+            if (isSummer) { //շարժվելուց էներգիան 1-ով քչանում է  
+                this.move();
+                this.energy--;
+            } else {//էներգիան քչանում է 2-ով
+                this.move();
+                this.energy -= 2;
+            }
+
             if (this.energy <= 0) { //մահանում է, եթե էներգիան 0֊ից ցածր է
                 this.die();
             }
