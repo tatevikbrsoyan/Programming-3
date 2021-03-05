@@ -1,0 +1,93 @@
+[
+    {
+        "grassCount": 83,
+        "grassEaterCount": 53,
+        "gishatichCount": 121,
+        "amenakerCount": 126,
+        "pinkCount": 156
+    },
+    {
+        "grassCount": 74,
+        "grassEaterCount": 17,
+        "gishatichCount": 121,
+        "amenakerCount": 155,
+        "pinkCount": 156
+    },
+    {
+        "grassCount": 74,
+        "grassEaterCount": 8,
+        "gishatichCount": 121,
+        "amenakerCount": 160,
+        "pinkCount": 92
+    },
+    {
+        "grassCount": 74,
+        "grassEaterCount": 4,
+        "gishatichCount": 87,
+        "amenakerCount": 141,
+        "pinkCount": 51
+    },
+    {
+        "grassCount": 74,
+        "grassEaterCount": 3,
+        "gishatichCount": 76,
+        "amenakerCount": 135,
+        "pinkCount": 29
+    },
+    {
+        "grassCount": 74,
+        "grassEaterCount": 3,
+        "gishatichCount": 72,
+        "amenakerCount": 90,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 74,
+        "grassEaterCount": 2,
+        "gishatichCount": 46,
+        "amenakerCount": 53,
+        "pinkCount": 11
+    },
+    {
+        "grassCount": 135,
+        "grassEaterCount": 2,
+        "gishatichCount": 36,
+        "amenakerCount": 35,
+        "pinkCount": 7
+    },
+    {
+        "grassCount": 125,
+        "grassEaterCount": 2,
+        "gishatichCount": 23,
+        "amenakerCount": 28,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 118,
+        "grassEaterCount": 2,
+        "gishatichCount": 14,
+        "amenakerCount": 22,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 117,
+        "grassEaterCount": 2,
+        "gishatichCount": 8,
+        "amenakerCount": 16,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 117,
+        "grassEaterCount": 2,
+        "gishatichCount": 5,
+        "amenakerCount": 10,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 117,
+        "grassEaterCount": 2,
+        "gishatichCount": 3,
+        "amenakerCount": 7,
+        "pinkCount": 3
+    }
+]

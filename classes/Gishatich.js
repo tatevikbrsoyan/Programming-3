@@ -51,12 +51,7 @@ module.exports = class Gishatich extends LivingCreature { //ուտում է խո
 
     //eat()-ուտել
     eat(isSummer) {
-        // if(isSummer){
-        //     console.log("summer");
-        // }else{
-        //     console.log("winter");
-        // }
-
+     
 
 
         //հետազոտում է շրջակայքը, որոնում է սնունդ

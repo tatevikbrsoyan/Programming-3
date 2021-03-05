@@ -1,4 +1,4 @@
-var numberOfSides = 20;
+var numberOfSides = 30;
 var socket = io();
 var side = 30;
 
@@ -19,13 +19,11 @@ function drawMatrix(data) {
 
     var isSummer = data.isSummer;
     var matrix = data.matrix;
-    //console.log(matrix);
 
     for (var i = 0; i < matrix.length; i++) {
         for (var j = 0; j < matrix[i].length; j++) {
-
             if (matrix[i][j] == 1) {
-
+                console.log("hayk ka xot", i,j);
                 if (isSummer) { //եթե ամառ է խոտը կանաչ է 
                     fill("green");
                 } else { // հակառակ դեպքում կապույտ է
