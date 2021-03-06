@@ -9,21 +9,37 @@
     <script src="p5.js"></script>
     <script src="script.js"></script>
     <style>
-        div{
-            display:inline-block;
+        div {
+            display: inline-block;
         }
 
-         #legend {position: absolute;top: 0;right: 0;width: 800px;} .legend-color {width: 30px;height: 30px;} td {border: 1px solid black; font-size: 14px; padding-left: 5px;}
-  
+        #legend {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 800px;
+        }
+
+        .legend-color {
+            width: 30px;
+            height: 30px;
+        }
+
+        td {
+            border: 1px solid black;
+            font-size: 14px;
+            padding-left: 5px;
+        }
     </style>
 </head>
 
 
 <body>
 
-    <!--  <table id="legend">
+
+    <table>
         <tr>
-            <td class="legend-color">Գույն</td>
+            <td>Գույն</td>
             <td>Անվանում</td>
             <td>Շարժվում է</td>
             <td>Ուտում է</td>
@@ -32,7 +48,7 @@
         </tr>
 
         <tr>
-            <td class="legend-color" style="background-color:gray"></td>
+            <td tyle="background-color:gray"></td>
             <td>Դատարկ վանդակներ</td>
             <td></td>
             <td></td>
@@ -40,41 +56,42 @@
             <td></td>
         </tr>
         <tr>
-            <td class="legend-color" style="background-color:green"></td>
+            <td style="background-color:green"></td>
             <td>Խոտ</td>
-            <td></td>
-            <td></td>
-            <td>Մոտակա 8 վանդակներում, 4 տակտը մեկ</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Մոտակա 8 վանդակներում, եթե խոտերը 10-ից քիչ են` բազմանում են, երբ multuply>=1 ,իսկ եթե խոտերը 10 կամ
+                ավել են` բազմանում են, երբ multiply>=8 </td>
             <td></td>
         </tr>
         <tr>
-            <td class="legend-color" style="background-color:yellow"></td>
+            <td style="background-color:yellow"></td>
             <td>Խոտակեր</td>
             <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 1֊ով</td>
             <td>Խոտերին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr>   
+        </tr>
         <tr>
-            <td class="legend-color" style="background-color:red"></td>
+            <td style="background-color:red"></td>
             <td>Գիշատիչ</td>
             <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 1֊ով</td>
             <td>Խոտերին, մոտակա 8 վանդակներում, շարժվելիս էներգիան ավելանում է 1֊ով</td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 10֊ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr>   
+        </tr>
 
         <tr>
-            <td class="legend-color" style="background-color:black"></td>
+            <td style="background-color:black"></td>
             <td>Ամենակեր</td>
             <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 1֊ով</td>
             <td>Խոտ եւ Խոտակեր </td>
             <td>Բազմանում է մոտակա տարածքներում, երբ էներգիան 12-ից ավել է</td>
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
-        </tr> 
+        </tr>
 
         <tr>
-            <td class="legend-color" style="background-color:pink"></td>
+            <td style="background-color:pink"></td>
             <td>Pink</td>
             <td>Մոտակա 8 վանդակներում, էներգիան քչանում է 2֊ով</td>
             <td>երբ խոտակերները 3-ից քիչ են,առաջանում է ու խոտ է ուտում</td>
@@ -82,8 +99,9 @@
             <td>Սատկում է, երբ էներգիան փոքր է 0֊ից</td>
         </tr>
 
-    </table>  -->
-    
+    </table>
+    <br>
+
 
     <button onclick="eventClick()">Իրադարձություն</button>
 </body>

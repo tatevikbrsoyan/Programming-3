@@ -57,8 +57,8 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
     //eat()-ուտել
     eat(isSummer) {
         //հետազոտում է շրջակայքը, որոնում է սնունդ
-        var eatersCells = this.chooseCell(1);
-        var coord = random(eatersCells);
+        var grassCells = this.chooseCell(1);
+        var coord = random(grassCells);
 
         //եթե կա հարմար սնունդ
         if (coord) {
@@ -122,7 +122,7 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
         if (coord) {
             var x = coord[0];
             var y = coord[1];
-            // this.multiply++;
+            this.multiply++;
             //ստեղծում է նոր օբյեկտ 
             //և տեղադրում է այն pinks զանգվածի մեջ
             var kerpar = new Pink(x, y);
@@ -133,10 +133,12 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
         }
     }
     die() {
+       
         //Հիմնական մատրիցում իր դիրքում դնում է դատարկություն
         matrix[this.y][this.x] = 0;
+        
 
-        //ինքն իրեն  ջնջում է ամենակերների զանգվածից
+        //ինքն իրեն  ջնջում է  զանգվածից
         for (var i in pinksArr) {
             if (this.x == pinksArr[i].x && this.y == pinksArr[i].y) {
                 pinksArr.splice(i, 1);

@@ -126,7 +126,7 @@ module.exports = class GrassEater extends LivingCreature {
         if (coord) {
             var x = coord[0];
             var y = coord[1];
-            // this.multiply++;
+            this.multiply++;
             //ստեղծում է նոր օբյեկտ (խոտակեր) 
             //և տեղադրում է այն խոտակերների զանգվածի մեջ
             var newEater = new GrassEater(x, y);

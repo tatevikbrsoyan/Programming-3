@@ -1,93 +1,3383 @@
 [
     {
-        "grassCount": 83,
-        "grassEaterCount": 53,
-        "gishatichCount": 121,
-        "amenakerCount": 126,
-        "pinkCount": 156
+        "grassCount": 76,
+        "grassEaterCount": 67,
+        "gishatichCount": 120,
+        "amenakerCount": 122,
+        "pinkCount": 153
     },
     {
-        "grassCount": 74,
-        "grassEaterCount": 17,
-        "gishatichCount": 121,
-        "amenakerCount": 155,
-        "pinkCount": 156
+        "grassCount": 73,
+        "grassEaterCount": 33,
+        "gishatichCount": 120,
+        "amenakerCount": 150,
+        "pinkCount": 153
     },
     {
-        "grassCount": 74,
-        "grassEaterCount": 8,
-        "gishatichCount": 121,
+        "grassCount": 73,
+        "grassEaterCount": 12,
+        "gishatichCount": 120,
         "amenakerCount": 160,
-        "pinkCount": 92
+        "pinkCount": 97
     },
     {
-        "grassCount": 74,
-        "grassEaterCount": 4,
-        "gishatichCount": 87,
+        "grassCount": 73,
+        "grassEaterCount": 7,
+        "gishatichCount": 85,
         "amenakerCount": 141,
-        "pinkCount": 51
+        "pinkCount": 58
     },
     {
-        "grassCount": 74,
+        "grassCount": 73,
         "grassEaterCount": 3,
-        "gishatichCount": 76,
-        "amenakerCount": 135,
-        "pinkCount": 29
+        "gishatichCount": 71,
+        "amenakerCount": 136,
+        "pinkCount": 32
     },
     {
-        "grassCount": 74,
-        "grassEaterCount": 3,
-        "gishatichCount": 72,
-        "amenakerCount": 90,
+        "grassCount": 73,
+        "grassEaterCount": 1,
+        "gishatichCount": 69,
+        "amenakerCount": 91,
         "pinkCount": 18
     },
     {
-        "grassCount": 74,
-        "grassEaterCount": 2,
+        "grassCount": 73,
+        "grassEaterCount": 0,
         "gishatichCount": 46,
-        "amenakerCount": 53,
-        "pinkCount": 11
+        "amenakerCount": 59,
+        "pinkCount": 9
     },
     {
-        "grassCount": 135,
-        "grassEaterCount": 2,
-        "gishatichCount": 36,
-        "amenakerCount": 35,
-        "pinkCount": 7
-    },
-    {
-        "grassCount": 125,
-        "grassEaterCount": 2,
-        "gishatichCount": 23,
-        "amenakerCount": 28,
+        "grassCount": 134,
+        "grassEaterCount": 0,
+        "gishatichCount": 38,
+        "amenakerCount": 43,
         "pinkCount": 5
     },
     {
-        "grassCount": 118,
-        "grassEaterCount": 2,
-        "gishatichCount": 14,
-        "amenakerCount": 22,
+        "grassCount": 130,
+        "grassEaterCount": 0,
+        "gishatichCount": 28,
+        "amenakerCount": 32,
         "pinkCount": 3
     },
     {
-        "grassCount": 117,
-        "grassEaterCount": 2,
-        "gishatichCount": 8,
-        "amenakerCount": 16,
+        "grassCount": 125,
+        "grassEaterCount": 0,
+        "gishatichCount": 18,
+        "amenakerCount": 26,
         "pinkCount": 4
     },
     {
-        "grassCount": 117,
-        "grassEaterCount": 2,
+        "grassCount": 124,
+        "grassEaterCount": 0,
+        "gishatichCount": 12,
+        "amenakerCount": 18,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 124,
+        "grassEaterCount": 0,
+        "gishatichCount": 7,
+        "amenakerCount": 12,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 124,
+        "grassEaterCount": 0,
         "gishatichCount": 5,
-        "amenakerCount": 10,
+        "amenakerCount": 7,
         "pinkCount": 4
     },
     {
-        "grassCount": 117,
-        "grassEaterCount": 2,
+        "grassCount": 124,
+        "grassEaterCount": 0,
         "gishatichCount": 3,
+        "amenakerCount": 3,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 124,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 239,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 3,
+        "pinkCount": 8
+    },
+    {
+        "grassCount": 232,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 11
+    },
+    {
+        "grassCount": 228,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 10
+    },
+    {
+        "grassCount": 226,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 8
+    },
+    {
+        "grassCount": 224,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 6
+    },
+    {
+        "grassCount": 223,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 223,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 221,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 433,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 2,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 427,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 3,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 422,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 3,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 420,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 4,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 416,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 4,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 410,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 4,
+        "pinkCount": 6
+    },
+    {
+        "grassCount": 405,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 4,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 403,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 5,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 698,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 7,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 690,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 9,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 680,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 11,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 673,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 13,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 664,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 14,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 654,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 15,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 642,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 16,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 631,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 18,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 832,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 18,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 822,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 21,
+        "pinkCount": 7
+    },
+    {
+        "grassCount": 806,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 21,
+        "pinkCount": 10
+    },
+    {
+        "grassCount": 797,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 24,
+        "pinkCount": 11
+    },
+    {
+        "grassCount": 780,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 26,
+        "pinkCount": 11
+    },
+    {
+        "grassCount": 769,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 28,
+        "pinkCount": 10
+    },
+    {
+        "grassCount": 746,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 33,
+        "pinkCount": 9
+    },
+    {
+        "grassCount": 2,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 32,
+        "pinkCount": 8
+    },
+    {
+        "grassCount": 4,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 30,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 7,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 27,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 8,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 24,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 21,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 17,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 13,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 10,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 7,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 6,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 6,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 5,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 7,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 6,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 6,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 6,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 6,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 6,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 6,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 7,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 6,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 8,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 5,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 8,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 5,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 9,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 5,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 9,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 5,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 11,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 5,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 11,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 1,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 11,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 1,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 11,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 0,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 10,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 2,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 9,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 4,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
         "amenakerCount": 7,
         "pinkCount": 3
+    },
+    {
+        "grassCount": 8,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 5,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 2,
+        "amenakerCount": 5,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 1,
+        "amenakerCount": 4,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 1,
+        "amenakerCount": 3,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 3,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 1,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 10,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 16,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 20,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 32,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 35,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 52,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 57,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 57,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 57,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 56,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 56,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 55,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 55,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 73,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 78,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 104,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 114,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 142,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 154,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 183,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 194,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 192,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 190,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 190,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 190,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 190,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 190,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 214,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 223,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 222,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 222,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 222,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 222,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 222,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 222,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 244,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 253,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 252,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 3
+    },
+    {
+        "grassCount": 250,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 249,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 247,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 246,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 245,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 4
+    },
+    {
+        "grassCount": 266,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 272,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 5
+    },
+    {
+        "grassCount": 271,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 7
+    },
+    {
+        "grassCount": 267,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 9
+    },
+    {
+        "grassCount": 263,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 9
+    },
+    {
+        "grassCount": 260,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 9
+    },
+    {
+        "grassCount": 259,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 8
+    },
+    {
+        "grassCount": 259,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 7
+    },
+    {
+        "grassCount": 278,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 9
+    },
+    {
+        "grassCount": 281,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 11
+    },
+    {
+        "grassCount": 280,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 278,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 279,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 10
+    },
+    {
+        "grassCount": 277,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 11
+    },
+    {
+        "grassCount": 276,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 274,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 295,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 13
+    },
+    {
+        "grassCount": 301,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 297,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 297,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 296,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 13
+    },
+    {
+        "grassCount": 294,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 13
+    },
+    {
+        "grassCount": 293,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 14
+    },
+    {
+        "grassCount": 291,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 15
+    },
+    {
+        "grassCount": 316,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 17
+    },
+    {
+        "grassCount": 319,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 317,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 19
+    },
+    {
+        "grassCount": 315,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 19
+    },
+    {
+        "grassCount": 314,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 16
+    },
+    {
+        "grassCount": 313,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 12
+    },
+    {
+        "grassCount": 313,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 13
+    },
+    {
+        "grassCount": 313,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 15
+    },
+    {
+        "grassCount": 345,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 17
+    },
+    {
+        "grassCount": 349,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 348,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 19
+    },
+    {
+        "grassCount": 344,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 20
+    },
+    {
+        "grassCount": 344,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 20
+    },
+    {
+        "grassCount": 343,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 19
+    },
+    {
+        "grassCount": 343,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 17
+    },
+    {
+        "grassCount": 342,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 381,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 16
+    },
+    {
+        "grassCount": 383,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 17
+    },
+    {
+        "grassCount": 382,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 19
+    },
+    {
+        "grassCount": 378,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 25
+    },
+    {
+        "grassCount": 374,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 28
+    },
+    {
+        "grassCount": 368,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 29
+    },
+    {
+        "grassCount": 365,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 26
+    },
+    {
+        "grassCount": 367,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 408,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 21
+    },
+    {
+        "grassCount": 409,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 407,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 404,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 400,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 25
+    },
+    {
+        "grassCount": 398,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 396,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 395,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 432,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 438,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 25
+    },
+    {
+        "grassCount": 438,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 433,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 27
+    },
+    {
+        "grassCount": 429,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 29
+    },
+    {
+        "grassCount": 430,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 28
+    },
+    {
+        "grassCount": 428,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 28
+    },
+    {
+        "grassCount": 426,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 26
+    },
+    {
+        "grassCount": 474,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 477,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 25
+    },
+    {
+        "grassCount": 472,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 28
+    },
+    {
+        "grassCount": 471,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 27
+    },
+    {
+        "grassCount": 468,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 26
+    },
+    {
+        "grassCount": 471,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 473,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 20
+    },
+    {
+        "grassCount": 471,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 17
+    },
+    {
+        "grassCount": 519,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 526,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 17
+    },
+    {
+        "grassCount": 526,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 527,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 15
+    },
+    {
+        "grassCount": 522,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 18
+    },
+    {
+        "grassCount": 523,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 519,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 518,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 568,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 573,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 569,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 568,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 569,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 569,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 568,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 24
+    },
+    {
+        "grassCount": 568,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 25
+    },
+    {
+        "grassCount": 615,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 26
+    },
+    {
+        "grassCount": 621,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 621,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 23
+    },
+    {
+        "grassCount": 620,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 20
+    },
+    {
+        "grassCount": 621,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 22
+    },
+    {
+        "grassCount": 617,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 25
+    },
+    {
+        "grassCount": 616,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 26
+    },
+    {
+        "grassCount": 614,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 27
+    },
+    {
+        "grassCount": 661,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 28
+    },
+    {
+        "grassCount": 664,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 30
+    },
+    {
+        "grassCount": 659,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 33
+    },
+    {
+        "grassCount": 656,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 32
+    },
+    {
+        "grassCount": 655,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 33
+    },
+    {
+        "grassCount": 653,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 34
+    },
+    {
+        "grassCount": 647,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 34
+    },
+    {
+        "grassCount": 647,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 31
+    },
+    {
+        "grassCount": 693,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 31
+    },
+    {
+        "grassCount": 695,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 33
+    },
+    {
+        "grassCount": 695,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 34
+    },
+    {
+        "grassCount": 692,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 35
+    },
+    {
+        "grassCount": 690,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 36
+    },
+    {
+        "grassCount": 687,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 37
+    },
+    {
+        "grassCount": 685,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 35
+    },
+    {
+        "grassCount": 681,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 36
+    },
+    {
+        "grassCount": 713,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 37
+    },
+    {
+        "grassCount": 710,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 35
+    },
+    {
+        "grassCount": 714,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 30
+    },
+    {
+        "grassCount": 713,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 29
+    },
+    {
+        "grassCount": 713,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 29
+    },
+    {
+        "grassCount": 713,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 30
+    },
+    {
+        "grassCount": 712,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 31
+    },
+    {
+        "grassCount": 708,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 32
+    },
+    {
+        "grassCount": 724,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 36
+    },
+    {
+        "grassCount": 719,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 36
+    },
+    {
+        "grassCount": 718,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 38
+    },
+    {
+        "grassCount": 709,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 40
+    },
+    {
+        "grassCount": 704,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 38
+    },
+    {
+        "grassCount": 707,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 41
+    },
+    {
+        "grassCount": 701,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 44
+    },
+    {
+        "grassCount": 691,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 46
+    },
+    {
+        "grassCount": 705,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 43
+    },
+    {
+        "grassCount": 698,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 41
+    },
+    {
+        "grassCount": 697,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 43
+    },
+    {
+        "grassCount": 694,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 44
+    },
+    {
+        "grassCount": 688,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 48
+    },
+    {
+        "grassCount": 690,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 53
+    },
+    {
+        "grassCount": 680,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 57
+    },
+    {
+        "grassCount": 668,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 59
+    },
+    {
+        "grassCount": 671,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 56
+    },
+    {
+        "grassCount": 665,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 52
+    },
+    {
+        "grassCount": 668,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 44
+    },
+    {
+        "grassCount": 664,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 46
+    },
+    {
+        "grassCount": 659,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 44
+    },
+    {
+        "grassCount": 663,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 45
+    },
+    {
+        "grassCount": 654,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 48
+    },
+    {
+        "grassCount": 651,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 45
+    },
+    {
+        "grassCount": 658,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 46
+    },
+    {
+        "grassCount": 648,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 51
+    },
+    {
+        "grassCount": 645,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 53
+    },
+    {
+        "grassCount": 644,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 49
+    },
+    {
+        "grassCount": 644,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 45
+    },
+    {
+        "grassCount": 648,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 45
+    },
+    {
+        "grassCount": 641,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 47
+    },
+    {
+        "grassCount": 634,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 48
+    },
+    {
+        "grassCount": 635,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 50
+    },
+    {
+        "grassCount": 629,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 49
+    },
+    {
+        "grassCount": 634,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 43
+    },
+    {
+        "grassCount": 639,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 45
+    },
+    {
+        "grassCount": 633,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 47
+    },
+    {
+        "grassCount": 640,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 44
+    },
+    {
+        "grassCount": 641,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 40
+    },
+    {
+        "grassCount": 641,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 38
+    },
+    {
+        "grassCount": 652,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 40
+    },
+    {
+        "grassCount": 651,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 41
+    },
+    {
+        "grassCount": 652,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 42
+    },
+    {
+        "grassCount": 654,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 43
+    },
+    {
+        "grassCount": 655,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 41
+    },
+    {
+        "grassCount": 672,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 36
+    },
+    {
+        "grassCount": 666,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 37
+    },
+    {
+        "grassCount": 667,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 40
+    },
+    {
+        "grassCount": 674,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 44
+    },
+    {
+        "grassCount": 671,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 48
+    },
+    {
+        "grassCount": 669,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 52
+    },
+    {
+        "grassCount": 664,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 55
+    },
+    {
+        "grassCount": 663,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 56
+    },
+    {
+        "grassCount": 665,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 58
+    },
+    {
+        "grassCount": 653,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 60
+    },
+    {
+        "grassCount": 653,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 56
+    },
+    {
+        "grassCount": 658,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 55
+    },
+    {
+        "grassCount": 656,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 52
+    },
+    {
+        "grassCount": 649,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 59
+    },
+    {
+        "grassCount": 655,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 63
+    },
+    {
+        "grassCount": 650,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 68
+    },
+    {
+        "grassCount": 645,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 628,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 76
+    },
+    {
+        "grassCount": 625,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 625,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 620,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 79
+    },
+    {
+        "grassCount": 607,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 84
+    },
+    {
+        "grassCount": 606,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 88
+    },
+    {
+        "grassCount": 601,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 84
+    },
+    {
+        "grassCount": 594,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 86
+    },
+    {
+        "grassCount": 586,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 85
+    },
+    {
+        "grassCount": 582,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 84
+    },
+    {
+        "grassCount": 584,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 80
+    },
+    {
+        "grassCount": 572,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 82
+    },
+    {
+        "grassCount": 567,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 75
+    },
+    {
+        "grassCount": 575,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 77
+    },
+    {
+        "grassCount": 571,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 84
+    },
+    {
+        "grassCount": 554,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 85
+    },
+    {
+        "grassCount": 544,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 89
+    },
+    {
+        "grassCount": 534,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 90
+    },
+    {
+        "grassCount": 520,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 90
+    },
+    {
+        "grassCount": 517,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 86
+    },
+    {
+        "grassCount": 512,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 80
+    },
+    {
+        "grassCount": 520,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 75
+    },
+    {
+        "grassCount": 522,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 77
+    },
+    {
+        "grassCount": 518,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 509,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 81
+    },
+    {
+        "grassCount": 506,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 504,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 71
+    },
+    {
+        "grassCount": 507,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 64
+    },
+    {
+        "grassCount": 504,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 65
+    },
+    {
+        "grassCount": 513,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 70
+    },
+    {
+        "grassCount": 510,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 77
+    },
+    {
+        "grassCount": 497,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 80
+    },
+    {
+        "grassCount": 488,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 79
+    },
+    {
+        "grassCount": 480,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 77
+    },
+    {
+        "grassCount": 480,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 69
+    },
+    {
+        "grassCount": 478,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 71
+    },
+    {
+        "grassCount": 472,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 73
+    },
+    {
+        "grassCount": 481,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 75
+    },
+    {
+        "grassCount": 472,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 464,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 81
+    },
+    {
+        "grassCount": 459,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 83
+    },
+    {
+        "grassCount": 459,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 80
+    },
+    {
+        "grassCount": 463,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 73
+    },
+    {
+        "grassCount": 461,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 70
+    },
+    {
+        "grassCount": 462,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 62
+    },
+    {
+        "grassCount": 476,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 62
+    },
+    {
+        "grassCount": 482,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 65
+    },
+    {
+        "grassCount": 475,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 70
+    },
+    {
+        "grassCount": 470,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 72
+    },
+    {
+        "grassCount": 464,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 75
+    },
+    {
+        "grassCount": 466,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 73
+    },
+    {
+        "grassCount": 462,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 76
+    },
+    {
+        "grassCount": 453,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 457,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 71
+    },
+    {
+        "grassCount": 466,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 72
+    },
+    {
+        "grassCount": 464,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 458,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 464,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 63
+    },
+    {
+        "grassCount": 469,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 57
+    },
+    {
+        "grassCount": 478,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 56
+    },
+    {
+        "grassCount": 476,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 55
+    },
+    {
+        "grassCount": 489,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 52
+    },
+    {
+        "grassCount": 502,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 52
+    },
+    {
+        "grassCount": 503,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 55
+    },
+    {
+        "grassCount": 504,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 56
+    },
+    {
+        "grassCount": 503,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 59
+    },
+    {
+        "grassCount": 501,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 59
+    },
+    {
+        "grassCount": 513,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 61
+    },
+    {
+        "grassCount": 512,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 55
+    },
+    {
+        "grassCount": 532,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 54
+    },
+    {
+        "grassCount": 533,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 58
+    },
+    {
+        "grassCount": 528,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 65
+    },
+    {
+        "grassCount": 517,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 507,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 81
+    },
+    {
+        "grassCount": 490,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 85
+    },
+    {
+        "grassCount": 493,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 89
+    },
+    {
+        "grassCount": 482,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 90
+    },
+    {
+        "grassCount": 483,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 96
+    },
+    {
+        "grassCount": 482,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 97
+    },
+    {
+        "grassCount": 478,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 102
+    },
+    {
+        "grassCount": 463,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 103
+    },
+    {
+        "grassCount": 466,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 95
+    },
+    {
+        "grassCount": 460,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 93
+    },
+    {
+        "grassCount": 465,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 96
+    },
+    {
+        "grassCount": 453,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 95
+    },
+    {
+        "grassCount": 459,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 92
+    },
+    {
+        "grassCount": 457,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 93
+    },
+    {
+        "grassCount": 457,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 96
+    },
+    {
+        "grassCount": 447,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 98
+    },
+    {
+        "grassCount": 441,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 103
+    },
+    {
+        "grassCount": 429,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 107
+    },
+    {
+        "grassCount": 428,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 113
+    },
+    {
+        "grassCount": 419,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 103
+    },
+    {
+        "grassCount": 417,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 97
+    },
+    {
+        "grassCount": 412,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 94
+    },
+    {
+        "grassCount": 413,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 88
+    },
+    {
+        "grassCount": 408,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 90
+    },
+    {
+        "grassCount": 409,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 86
+    },
+    {
+        "grassCount": 402,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 90
+    },
+    {
+        "grassCount": 396,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 94
+    },
+    {
+        "grassCount": 391,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 95
+    },
+    {
+        "grassCount": 397,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 96
+    },
+    {
+        "grassCount": 383,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 97
+    },
+    {
+        "grassCount": 386,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 87
+    },
+    {
+        "grassCount": 384,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 83
+    },
+    {
+        "grassCount": 390,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 397,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 404,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 78
+    },
+    {
+        "grassCount": 407,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 71
+    },
+    {
+        "grassCount": 420,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 408,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 73
+    },
+    {
+        "grassCount": 422,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 66
+    },
+    {
+        "grassCount": 418,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 70
+    },
+    {
+        "grassCount": 421,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 69
+    },
+    {
+        "grassCount": 429,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 73
+    },
+    {
+        "grassCount": 435,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 77
+    },
+    {
+        "grassCount": 426,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 443,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 76
+    },
+    {
+        "grassCount": 433,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 71
+    },
+    {
+        "grassCount": 442,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 70
+    },
+    {
+        "grassCount": 444,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 63
+    },
+    {
+        "grassCount": 448,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 64
+    },
+    {
+        "grassCount": 458,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 68
+    },
+    {
+        "grassCount": 457,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 74
+    },
+    {
+        "grassCount": 443,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 79
+    },
+    {
+        "grassCount": 458,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 87
+    },
+    {
+        "grassCount": 443,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 90
+    },
+    {
+        "grassCount": 443,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 101
+    },
+    {
+        "grassCount": 433,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 103
+    },
+    {
+        "grassCount": 423,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 105
+    },
+    {
+        "grassCount": 435,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 104
+    },
+    {
+        "grassCount": 452,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 89
+    },
+    {
+        "grassCount": 445,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 86
+    },
+    {
+        "grassCount": 452,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 87
+    },
+    {
+        "grassCount": 444,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 87
+    },
+    {
+        "grassCount": 456,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 87
+    },
+    {
+        "grassCount": 451,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 96
+    },
+    {
+        "grassCount": 435,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 97
+    },
+    {
+        "grassCount": 437,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 101
+    },
+    {
+        "grassCount": 439,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 101
+    },
+    {
+        "grassCount": 433,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 94
+    },
+    {
+        "grassCount": 438,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 98
+    },
+    {
+        "grassCount": 2,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 85
+    },
+    {
+        "grassCount": 4,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 76
+    },
+    {
+        "grassCount": 2,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 69
+    },
+    {
+        "grassCount": 4,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 59
+    },
+    {
+        "grassCount": 8,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 46
+    },
+    {
+        "grassCount": 9,
+        "grassEaterCount": 0,
+        "gishatichCount": 0,
+        "amenakerCount": 0,
+        "pinkCount": 36
     }
 ]

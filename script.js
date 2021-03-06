@@ -23,7 +23,7 @@ function drawMatrix(data) {
     for (var i = 0; i < matrix.length; i++) {
         for (var j = 0; j < matrix[i].length; j++) {
             if (matrix[i][j] == 1) {
-                console.log("hayk ka xot", i,j);
+                console.log(i, j);
                 if (isSummer) { //եթե ամառ է խոտը կանաչ է 
                     fill("green");
                 } else { // հակառակ դեպքում կապույտ է
@@ -46,6 +46,7 @@ function drawMatrix(data) {
                 fill(199, 21, 133);
                 rect(j * side, i * side, side, side);
             }
+            
         }
     }
 
