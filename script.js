@@ -23,7 +23,6 @@ function drawMatrix(data) {
     for (var i = 0; i < matrix.length; i++) {
         for (var j = 0; j < matrix[i].length; j++) {
             if (matrix[i][j] == 1) {
-                console.log(i, j);
                 if (isSummer) { //եթե ամառ է խոտը կանաչ է 
                     fill("green");
                 } else { // հակառակ դեպքում կապույտ է
