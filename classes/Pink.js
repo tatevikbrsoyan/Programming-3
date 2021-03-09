@@ -81,14 +81,14 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
             //եթե ամառ է էներգիան մեծանում է 1-ով
             if (isSummer) {
                 this.energy++;
-               // console.log("amar a");
+                // console.log("amar a");
             } else {  //եթե ձմեռ է էներգիան մեծանում է -2ով
                 this.energy += 2;
                 //console.log('dzmer a ');
             }
 
             // սննդի զանգվածից ջնջում է կերված սնունդը
-            for (var i in grassArr) {
+            for (var i = 0; i < grassArr.length; i++) {
                 if (x == grassArr[i].x && y == grassArr[i].y) {
                     grassArr.splice(i, 1);
                 }
@@ -110,7 +110,7 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
             }
         }
 
-       
+
     }
     //mul() բազմանալ
     mul() {
@@ -133,13 +133,13 @@ module.exports = class Pink extends LivingCreature { //երբ խոտակերնե
         }
     }
     die() {
-       
+
         //Հիմնական մատրիցում իր դիրքում դնում է դատարկություն
         matrix[this.y][this.x] = 0;
-        
+
 
         //ինքն իրեն  ջնջում է  զանգվածից
-        for (var i in pinksArr) {
+        for (var i = 0; i < pinksArr.length; i++) {
             if (this.x == pinksArr[i].x && this.y == pinksArr[i].y) {
                 pinksArr.splice(i, 1);
             }

@@ -79,7 +79,7 @@ module.exports = class GrassEater extends LivingCreature {
             this.energy++;
 
             // սննդի զանգվածից ջնջում է կերված սնունդը
-            for (var i in grassArr) {
+            for (var i = 0; i < grassArr.length; i++) {
                 if (x == grassArr[i].x && y == grassArr[i].y) {
                     grassArr.splice(i, 1);
                 }
@@ -88,7 +88,7 @@ module.exports = class GrassEater extends LivingCreature {
 
             //եթե ամառ է 
             if (isSummer) {
-               // console.log("amar a ");
+
                 //եթե պատրաստ է բազմացմանը - multply=6, բազմանում է 
                 if (this.multiply == 6) {
                     this.mul()
@@ -97,7 +97,7 @@ module.exports = class GrassEater extends LivingCreature {
 
 
             } else { //եթե ձմեռ է 
-                //console.log('dmzer a ');
+
                 if (this.multiply == 8) { //եթե պատրաստ է բազմացմանը - multply=8, բազմանում է 
                     this.mul()
                     this.multiply = 0;
@@ -142,7 +142,7 @@ module.exports = class GrassEater extends LivingCreature {
         matrix[this.y][this.x] = 0;
 
         //ջնջում է ինքն իրեն խոտակերների զանգվածից
-        for (var i in eatersArr) {
+        for (var i = 0; i < eatersArr.length; i++) {
             if (this.x == eatersArr[i].x && this.y == eatersArr[i].y) {
                 eatersArr.splice(i, 1);
             }

@@ -78,7 +78,7 @@ module.exports = class Amenaker extends LivingCreature { //ուտում է խո�
             this.energy++;
             //եթե ուտում է խոտ,խոտին ջնջում է խոտակերների զանգվածից
             if (snund == 1) {
-                for (var i in grassArr) {
+                for (var i = 0; i < grassArr.length; i++) {
                     if (x == grassArr[i].x && y == grassArr[i].y) {
                         grassArr.splice(i, 1);
                     }
@@ -86,7 +86,7 @@ module.exports = class Amenaker extends LivingCreature { //ուտում է խո�
             }
             //եթե ուտում է խոտակեր,խոտակերին է ջնջում խոտակերների զանգվածից
             else if (snund == 2) {
-                for (var i in eatersArr) {
+                for (var i = 0; i < eatersArr.length; i++) {
                     if (x == eatersArr[i].x && y == eatersArr[i].y) {
                         eatersArr.splice(i, 1);
                     }
@@ -140,7 +140,7 @@ module.exports = class Amenaker extends LivingCreature { //ուտում է խո�
         matrix[this.y][this.x] = 0;
 
         //ինքն իրեն  ջնջում է ամենակերների զանգվածից
-        for (var i in amenakernerArr) {
+        for (var i = 0; i < amenakernerArr.length; i++) {
             if (this.x == amenakernerArr[i].x && this.y == amenakernerArr[i].y) {
                 amenakernerArr.splice(i, 1);
             }

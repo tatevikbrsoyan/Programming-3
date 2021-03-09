@@ -43,7 +43,7 @@ random = function (arr) {
 
 
 function matrixGenerator() {
-   var randomMatrix = [0, 0, 1, 1, 1, 1, 0, 2, 2, 3, 3, 4, 4, 5, 5, ]
+   var randomMatrix = [0, 0, 1, 1, 1, 1, 0, 2, 2, 3, 3, 4, 4, 5, 5,]
    for (var y = 0; y < 30; y++) {
       matrix[y] = [];
       for (var x = 0; x < 30; x++) {
@@ -54,7 +54,6 @@ function matrixGenerator() {
 
 function start() {
    matrixGenerator();
-   //console.log(matrix);
    //մատրիցի վրա կրկնակի ցիկլը լցնում է կերպարների զանգվածները օբյեկտներով 
    for (var y = 0; y < matrix.length; y++) {
       for (var x = 0; x < matrix[y].length; x++) {
@@ -75,16 +74,25 @@ function start() {
             var pin = new Pink(x, y);
             pinksArr.push(pin)
          }
-         
+
       }
    }
 }
 
-io.on('connection', function (socket) {
-   socket.on('event', function () {
+function deleteArr(arr, x, y) {
 
-      console.log('event clicked');
-// եթե իրադարձությունը տեղի է ունենում, բոլոր խոտերը ջնջվում են
+   for (var i = 0; i < arr.length; i++) {
+      if (x == arr[i].x && y == arr[i].y) {
+         arr.splice(i, 1)
+      }
+   }
+
+}
+
+io.on('connection', function (socket) {
+   socket.on('event1', function () {
+
+      // եթե իրադարձություն 1 տեղի է ունենում, բոլոր խոտերը ջնջվում են
       for (var y = 0; y < matrix.length; y++) {
          for (var x = 0; x < matrix.length; x++) {
 
@@ -96,6 +104,35 @@ io.on('connection', function (socket) {
       grassArr = []
    });
 
+   socket.on('event2', function () { // եթե իրադարձություն 2 տեղի է ունենում, ջնջում է random սյունակի բոլոր կերպարներին
+      var y = getRandomInt(0, matrix.length);
+
+
+      for (var x = 0; x < matrix[y].length; x++) {
+
+         if (matrix[y][x] == 1) {
+            deleteArr(grassArr, x, y)
+         }
+         else if (matrix[y][x] == 2) {
+            deleteArr(eatersArr, x, y)
+         }
+         else if (matrix[y][x] == 3) {
+            deleteArr(gishatArr, x, y)
+         }
+         else if (matrix[y][x] == 4) {
+            deleteArr(amenakernerArr, x, y)
+         }
+         else if (matrix[y][x] == 5) {
+            deleteArr(pinksArr, x, y)
+         }
+
+
+         matrix[y][x] = 0;
+
+
+      }
+   });
+
 
 });
 
@@ -104,7 +141,7 @@ io.on('connection', function (socket) {
 function game() {
 
 
-   //եթե խոտ չկա պիտի առաջանա
+   //եթե խոտ չկա առաջանում է
    if (grassArr.length < 1) {
       var x = getRandomInt(0, matrix[0].length);
       var y = getRandomInt(0, matrix.length);
@@ -117,19 +154,10 @@ function game() {
          y = getRandomInt(0, matrix.length);
       }
 
-      //console.log( matrix[y][x]);
-      // console.log( grassArr);
-
-
       var grass = new Grass(x, y);
       grassArr.push(grass);
       matrix[y][x] = 1;
 
-      // console.log( grassArr);
-      
-      // console.log(x, y);
-      // console.log( matrix[y][x]);
-      // console.log("--------------------------------------")
    }
 
    var isSummer = summer();
@@ -154,7 +182,7 @@ function game() {
    for (var i in pinksArr) {
       pinksArr[i].eat();
    }
-    
+
    //pink-երբ խոտակերները վերջանում են ուտում է խոտ
    if (eatersArr.length < 3 && pinksArr.length < 3) {
       var emptyCells = []
@@ -201,15 +229,13 @@ function summer() {
 // այն ամբողջական տվյալները պահպանում է ֆայլում
 function saveStats() {
    var fileName = 'stats.json';
-  var statsObject = {
-     'grassCount': grassArr.length,
-     'grassEaterCount': eatersArr.length,
-     'gishatichCount': gishatArr.length,
-     'amenakerCount':amenakernerArr.length,
-     'pinkCount':pinksArr.length,
-     
-   
-  };
+   var statsObject = {
+      'grassCount': grassArr.length,
+      'grassEaterCount': eatersArr.length,
+      'gishatichCount': gishatArr.length,
+      'amenakerCount': amenakernerArr.length,
+      'pinkCount': pinksArr.length,
+   };
 
    stats.push(statsObject);
    fs.writeFileSync(fileName, JSON.stringify(stats, null, 4));

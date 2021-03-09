@@ -92,7 +92,7 @@ module.exports = class Gishatich extends LivingCreature { //ուտում է խո
 
 
             // սննդի զանգվածից ջնջում է կերված սնունդը
-            for (var i in eatersArr) {
+            for (var i = 0; i < eatersArr.length; i++) {
                 if (x == eatersArr[i].x && y == eatersArr[i].y) {
                     eatersArr.splice(i, 1);
                 }
@@ -141,7 +141,7 @@ module.exports = class Gishatich extends LivingCreature { //ուտում է խո
         matrix[this.y][this.x] = 0;
 
         //ջնջում է ինքն իրեն գիշատիչների զանգվածից
-        for (var i in gishatArr) {
+        for (var i = 0; i < gishatArr.length; i++) {
             if (this.x == gishatArr[i].x && this.y == gishatArr[i].y) {
                 gishatArr.splice(i, 1);
             }

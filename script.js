@@ -5,7 +5,6 @@ var side = 30;
 socket.on('matrixUpdate', drawMatrix);
 
 function someEvent() {
-    // Ասել socket-ին որ տեղի ունեցավ someEvent իրադարձությունը
     socket.emit('someEvent');
 }
 
@@ -45,14 +44,19 @@ function drawMatrix(data) {
                 fill(199, 21, 133);
                 rect(j * side, i * side, side, side);
             }
-            
+
         }
     }
 
 }
 
-function eventClick() {
-    socket.emit('event');
+function eventClick1() {
+    socket.emit('event1');
+
+}
+function eventClick2() {
+    socket.emit('event2')
+
 }
 
 
